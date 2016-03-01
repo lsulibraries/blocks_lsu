@@ -1045,5 +1045,33 @@ function blocks_lsu_default_blockexport_settings() {
   'title' => '',
   'cache' => -1,
 );
+  $export['block'][] = array(
+  'bid' => 75,
+  'module' => 'diff',
+  'delta' => 'inline',
+  'theme' => 'bartik',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 1,
+);
+  $export['block'][] = array(
+  'bid' => 76,
+  'module' => 'diff',
+  'delta' => 'inline',
+  'theme' => 'seven',
+  'status' => 0,
+  'weight' => 0,
+  'region' => -1,
+  'custom' => 0,
+  'visibility' => 0,
+  'pages' => '',
+  'title' => '',
+  'cache' => 1,
+);
 return $export;
 }
